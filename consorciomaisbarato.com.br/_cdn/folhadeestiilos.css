@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    -webkit-box-sizing: border-box;
+}
+html{
+    font-family: 'Baloo Bhaina 2', cursive;   
+    background-color: #CCC;
+    color: #217178;
+}
+
+
+/*IMAGEM*/
+.imagemtop{
+    width: 100%;
+    margin-bottom: -13px;
+    min-height: 40px;
+}
+
+/*MENU*/
+.main_header{
+    display:flex;
+    background-color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_header_nav{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_header_nav ul{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_header_nav ul li{
+    flex-basis: 12%;    
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main_header_nav ul li a{    
+    text-decoration: none;
+    color: #217178;
+    font-weight: 600;
+    padding: 0 40px;
+    font-size: 1.2em;
+}
+
+.main_header_nav ul li a:hover{
+    background-color: #217178;
+    color: white;
+}
+
+/*PRIMEIRA DOBRA*/
+
+.main_pd{
+    background-color: #217178;
+    color: white;
+    background-image: url(../Img/dinheiro1.jpg);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 30px; 
+    padding-right: 20px;
+    min-height: 500px;
+
+}
+
+.main_pd h1{
+    font-size: 3.0em;
+    color: #FD811D;   
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+
+.main_pd p{
+    font-size: 2.0em;
+    color: #217178;    
+    text-shadow: 0.02em 0.02em 0.02em black;
+}
+
+
+
+/*TIPOS DE CONSÓRCIO*/
+.main_blog{
+    display: flex;
+    flex-wrap: wrap;  
+    padding-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+.main_blog header{
+    flex-basis: calc(100% -10px);    
+    text-shadow: 0.05em 0.05em 0.05em black;
+    background-color: #217178;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.main_blog article{
+    flex-basis: 50%;
+    padding: 30px;
+    opacity: 0.6;
+    text-align: center;
+    max-width: calc(1300px - 80px);
+}
+
+.main_blog article img{
+    width: 100%;
+    opacity: 0.78;
+}
+
+.main_blog article:hover{
+    opacity: 1;
+}
+
+.main_blog article img:hover{
+    opacity: 1;
+}
+
+
+.main_blog_header h1{
+    font-size: 2.0em;
+    text-align: center;
+    color: #FD811D;
+}
+
+.main_blog_header p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+/*SIMULAÇÃO*/
+.main_simulacao{
+    display: flex;
+    flex-wrap: wrap;  
+    padding-bottom: 10px;
+    justify-content: space-around;
+    background-image: url(../Img/back.jpg);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.main_simulacao header{
+    flex-basis: 100%;
+    text-align: center;   
+    text-shadow: 0.05em 0.05em 0.05em black;
+    background-color: #217178;
+    color: #FD811D;
+    width: 100%;
+    margin: 0;
+    font-size: 1.30em;
+    font-weight: 500;
+    margin-bottom: 30px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* Botões */
+
+.main_simulacao a{
+    flex-basis:  calc(50% - 180px);
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    margin: 0 auto 30px auto;
+    padding-bottom: 20px;
+}
+
+.main_simulacao img{
+    width: 100px;
+    margin-left: -20%;
+}
+
+.btn_simulacao{
+    max-width: 250px;
+    text-decoration: none;
+    background-color: #217178;
+    color: white;
+    font-size: 3em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;  
+    padding: 0 20px;        
+    text-shadow: 0.05em 0.05em 0.05em black;
+    background-size: 20px; 
+}
+
+/* Vantagens*/
+
+.main_vantagens header{
+    display: none;
+}
+
+.main_comofunciona header{
+    display: none;
+}
+
+.main_sorteios header{
+    display: none;
+}
+
+::-webkit-details-marker{
+    float: right;
+    margin-top: 14px;
+}
+
+.aba summary{    
+    text-shadow: 0.05em 0.05em 0.05em black;
+    background-color: #217178;
+    color: #FD811D;
+    width: 100%;
+    margin: 0;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.aba p{
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.primeiro{
+    padding-top: 20px;
+}
+
+.ultimo{
+    padding-bottom: 20px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;
+}
+
+.imagens img{
+    width: 260px;
+    padding: 20px 20px 40px 20px;
+}
+
+.primeirooo{
+    font-size: 1.2em;    
+    font-weight: 500;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+/*Redes Sociais
+
+.main_redessocias > header{
+    text-shadow: 0.05em 0.05em 0.05em black;
+    background-color: #217178;
+    color: #FD811D;
+    width: 100%;
+    margin: 0;
+    font-size: 1.3em;
+    text-align: center;
+}*/
+
+footer{
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: white;
+    font-size: 0.8em;
+}
+
+@media(max-width: 30em){   
+
+    .main_pd{
+        min-height: 400px;
+    }
+
+    .main_pd h1{
+        font-size: 1.6em;
+    }
+
+    .main_pd p{
+        font-size: 1.2em;
+    }
+
+
+    .main_simulacao img{
+        max-width: 70px;
+        margin-top: -14px;
+        margin-left: 5px;
+    }
+
+    .main_simulacao a{
+        font-size: 1.4em;
+        max-height: 40px; 
+    }
+
+    .main_blog_header h1{
+        font-size: 1.6em;
+    }
+
+    .main_simulacao h1{
+        font-size: 1.3em;
+    }
+
+}
+
+@media(min-width: 92em) {
+
+    body{    
+        max-width: 1472px;
+        margin: 0 auto;
+    }
+}
